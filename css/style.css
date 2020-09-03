@@ -1,0 +1,42 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos do Header*/
+
+.header {
+  width: 100vw;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  background-color: #FEC63E;
+}
+
+.menu-header {
+  text-align: right;
+}
+.menu-header ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+
+.menu-header ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.menu-header ul li a:hover {
+  color: #ffffff;
+}
+
+/*====== INTRODUÇÃO ========*/
