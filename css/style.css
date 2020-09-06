@@ -3,6 +3,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.875em;
+  line-height: 20px;
+}
+
 /* Estilos do Header*/
 
 .header {
@@ -40,3 +46,60 @@ body {
 }
 
 /*====== INTRODUÇÃO ========*/
+.introduction {
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover; /* para a imagem comprir inteira */
+  margin-top: 94.5px;
+  height: 380px;
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.introduction h1 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+
+.quote-externo {
+  color: #ffffff;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after{ /* Estilização da pagina*/
+  background: #fff; 
+  content: "";
+  display: block;
+  margin: 10px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.quote-externo-cite {
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.btn {
+  border:  3px solid #FEC63E;
+  color: #FEC63E;
+  text-decoration: none;
+  font-size: 0.875em;
+  font-weight: bold;
+  line-height: 60px;
+  padding: 5px;
+  text-transform: uppercase;
+  
+}
