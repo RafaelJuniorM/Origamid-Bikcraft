@@ -9,6 +9,47 @@ p {
   line-height: 20px;
 }
 
+.btn {
+  border:  3px solid #FEC63E;
+  color: #FEC63E;
+  text-decoration: none;
+  font-size: 0.875em;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.btn-preto:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle:after{
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 8px auto;
+  height: 3px;
+  width: 60px;
+}
+
+
 /* Estilos do Header*/
 
 .header {
@@ -17,13 +58,14 @@ p {
   position: fixed;
   top: 0;
   background-color: #FEC63E;
+  z-index: 1;
 }
 
 .menu-header {
   text-align: right;
 }
 .menu-header ul li {
-  display: inline-block;
+  display: inline-block; /* O li ficam lado a lado */
   margin-left: 20px;
   margin-top: 20px;
   
@@ -38,7 +80,7 @@ p {
   letter-spacing: .1em;
   line-height: 20px;
   text-transform: uppercase;
-  padding: 10px 0;
+  padding: 10px 0; /* aumenta a area de contato do menu*/
 }
 
 .menu-header ul li a:hover {
@@ -49,7 +91,7 @@ p {
 .introduction {
   background: url(../img/bg.jpg) no-repeat center;
   background-size: cover; /* para a imagem comprir inteira */
-  margin-top: 94.5px;
+  margin-top: 94.5px; /* como o menu esta fixed é nescessario da um espaçamento */
   height: 380px;
   padding-top: 80px;
   text-align: center;
@@ -58,9 +100,8 @@ p {
 
 .introduction h1 {
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
@@ -70,6 +111,7 @@ p {
   color: #ffffff;
   max-width: 300px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .quote-externo p {
@@ -87,19 +129,65 @@ p {
 
 .quote-externo-cite {
   font-weight: bold;
-  line-height: 60px;
+  line-height: 20px;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
 
-.btn {
-  border:  3px solid #FEC63E;
-  color: #FEC63E;
-  text-decoration: none;
-  font-size: 0.875em;
-  font-weight: bold;
-  line-height: 60px;
-  padding: 5px;
+/*======= Produtos ============ */
+
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produto_bike .icone_produtos {
+  background-color: #000;
+  text-align: center;
+}
+
+.produto_bike .icone_produtos img {
+  padding: 20px;
+}
+
+.produto_bike .description_model {
+  background-color: #FEC63E;
+  text-align: center;
+
+}
+
+.produto_bike .description_model .title_description {
+ 
+  font-size: 1.12em;
+  line-height: 25px;
+  letter-spacing: .1em;
   text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 14px;
+}
+
+.produto_bike .description_model .title_description:after {
   
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 2px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.produto_bike .description_model .p_description {
+  
+  padding: 10px 20px 20px 20px ;
+}
+
+.call-to-action {
+  padding-top: 40px ;
+  text-align: center;
+  clear: both;
+ 
+}
+
+.call-to-action p {
+  margin-bottom: 30px;
 }
