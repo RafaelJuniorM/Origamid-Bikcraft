@@ -50,7 +50,22 @@ p {
   width: 60px;
 }
 
+.call-to-action {
+  padding-top: 40px ;
+  height: 100px;
+  text-align: center;
+  clear: both;
+  margin-bottom: 20px;
+}
 
+.call-to-action p {
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+img {
+  display: block;
+}
 /* Estilos do Header*/
 
 .header {
@@ -92,7 +107,7 @@ p {
 .introduction {
   background: url(../img/bg.jpg) no-repeat center;
   background-size: cover; /* para a imagem comprir inteira */
-  margin-top: 94.5px; /* como o menu esta fixed é nescessario da um espaçamento */
+  margin-top: 92px; /* como o menu esta fixed é nescessario da um espaçamento */
   height: 380px;
   padding-top: 80px;
   text-align: center;
@@ -182,17 +197,6 @@ p {
   padding: 10px 20px 20px 20px ;
 }
 
-.call-to-action {
-  padding-top: 40px ;
-  height: 100px;
-  text-align: center;
-  clear: both;
-  margin-bottom: 20px;
-}
-
-.call-to-action p {
-  margin-bottom: 30px;
-}
 
 /* ======== PORTFOLIO ========= */
 .portfolio {
@@ -218,7 +222,7 @@ p {
   margin-top: 20px;
 }
 
-.call-to-action p {
+.call-to-action .call-to-action-black {
   color: #fff;
 }
 
@@ -227,3 +231,51 @@ p {
 }
 
 /* =========== QUALIDADE ============= */
+
+.qualidade  {
+  padding: 60px 0;
+}
+
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url(../img/linhas.svg) no-repeat center;
+  position: absolute; /* para que possa move-lo */
+  top: 209px;
+  right: 162px;
+  z-index: -1; /* deixa o elemento mais atras possivel */ 
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade-lista {
+  padding-top: 20px;
+}
+.qualidade-lista li h3 {
+  font-weight: bold;
+  font-size: 1.12em;
+  line-height: 25px;
+  letter-spacing: .1em;
+  padding-top: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.qualidade-lista li h3::after {
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 8px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.qualidade-lista li {
+  padding: 0 40px;
+  text-align: center;
+}
+
