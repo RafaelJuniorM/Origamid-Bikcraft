@@ -66,7 +66,7 @@ p {
 img {
   display: block;
 }
-/* Estilos do Header*/
+/* ===== ESTILOS DO HEADER ========*/
 
 .header {
   width: 100vw;
@@ -242,7 +242,7 @@ img {
   height: 83px;
   display: block;
   background: url(../img/linhas.svg) no-repeat center;
-  position: absolute; /* para que possa move-lo */
+  position: absolute; /* para que possa move-lo  somente dentro da div PAI ( que é relative)*/
   top: 209px;
   right: 162px;
   z-index: -1; /* deixa o elemento mais atras possivel */ 
@@ -279,3 +279,12 @@ img {
   text-align: center;
 }
 
+/* ===== FOOTER ===== */
+
+.quebra .first-footer {
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  height: 220px;
+  text-align: center;
+  width: 1295px;
+}
