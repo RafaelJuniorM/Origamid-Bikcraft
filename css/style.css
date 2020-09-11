@@ -286,5 +286,31 @@ img {
   background-size: cover;
   height: 220px;
   text-align: center;
-  width: 1295px;
+  width: 100%;
+}
+.quebra .quote-externo p {
+  padding-top: 45px;
+}
+
+.footer {
+  background: #000;
+}
+.footer h2 {
+  color: #FEC63E;
+  font-size: 1.125em;
+  margin-top: 15px;
+  text-transform: uppercase;
+  
+}
+
+.footer h2:after {
+  background: #FEC63E; 
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+}
+
+.footer .content-footer {
+  color: #fff;
 }
