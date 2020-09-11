@@ -6,7 +6,7 @@ body {
 p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 0.875em;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .btn {
@@ -286,7 +286,7 @@ img {
   background-size: cover;
   height: 220px;
   text-align: center;
-  width: 100%;
+  width: 100vw;
 }
 .quebra .quote-externo p {
   padding-top: 45px;
@@ -294,23 +294,56 @@ img {
 
 .footer {
   background: #000;
+  width: 100vw;
+  color: #fff;
+  padding: 20px 0;
+
 }
-.footer h2 {
+.footer h3 {
   color: #FEC63E;
   font-size: 1.125em;
-  margin-top: 15px;
+  font-weight: bold;
   text-transform: uppercase;
+  line-height: 25px;
   
 }
 
-.footer h2:after {
+.footer h3:after {
   background: #FEC63E; 
   content: "";
   display: block;
   height: 3px;
   width: 60px;
+  margin: 6px 0 12px 0;
 }
 
-.footer .content-footer {
+.footer_historia {
+  padding-right: 40px;
+}
+
+.footer_contato ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.875em;
+  line-height: 25px;
   color: #fff;
+}
+
+.footer_redes ul li {
+  display: inline-block; /* Os li sao block ficando um abaixo do outro*/
+  margin-left: 10px;
+}
+
+.footer_redes ul li a {
+  border:  3px solid #FEC63E;
+  display: block;
+  padding: 5px;
+}
+
+.footer_redes ul li a:hover {
+  color: #fff;
+}
+
+.copyrigth {
+  width: 100vw;
+  background: #FEC63E;
 }
