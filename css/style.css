@@ -150,6 +150,14 @@ img {
   text-transform: uppercase;
 }
 
+/*====== introduçao interna ======= */
+.introduction_interna {
+  background-size: cover;
+  height: 160px;
+  width: 100%;
+  margin-top: 92px;
+}
+
 /*======= Produtos ============ */
 
 
