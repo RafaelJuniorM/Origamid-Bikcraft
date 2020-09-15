@@ -1,0 +1,14 @@
+.introducao_produto {
+  background: url(../img/bg-produtos.jpg) no-repeat center;
+  background-size: cover;
+ 
+}
+
+.foto-passeio1 {
+  background: url(../img/produtos/bikcraft-passeio-1.jpg) no-repeat;
+  width: 630px;
+  height: 276.5px;
+  margin-top: 60px;
+
+}
+

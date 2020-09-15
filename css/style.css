@@ -153,13 +153,16 @@ img {
   text-transform: uppercase;
 }
 
-/*====== introduçao interna  pagina sobre ======= */
+/*====== introduçao interna  PAGINA SOBRE  ======= */
 .introduction_interna {
+  height: 160px;
+  width: 100vw;
+  margin-top: 92px;
   text-align: center;
   color: #fff;
   padding-top: 30px;
- 
 }
+
 .introduction_interna h1 {
   color: #ffffff;
   font-weight: bold;
