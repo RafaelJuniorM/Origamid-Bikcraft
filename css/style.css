@@ -103,6 +103,9 @@ img {
   color: #ffffff;
 }
 
+.menu-header ul li a.menu_ativo {
+  color: #fff;
+}
 /*====== INTRODUÇÃO ========*/
 .introduction {
   background: url(../img/bg.jpg) no-repeat center;
@@ -150,12 +153,46 @@ img {
   text-transform: uppercase;
 }
 
-/*====== introduçao interna ======= */
+/*====== introduçao interna  pagina sobre ======= */
 .introduction_interna {
-  background-size: cover;
-  height: 160px;
-  width: 100%;
-  margin-top: 92px;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+ 
+}
+.introduction_interna h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.25em;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.introduction_interna h1:after {
+  background: #fff; 
+  content: "";
+  display: block;
+  margin: 10px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.subtitulo-interno {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after{
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 8px 0;
+  height: 3px;
+  width: 60px;
 }
 
 /*======= Produtos ============ */
@@ -262,6 +299,7 @@ img {
 
 .qualidade-lista {
   padding-top: 20px;
+  overflow: hidden;
 }
 .qualidade-lista li h3 {
   font-weight: bold;
