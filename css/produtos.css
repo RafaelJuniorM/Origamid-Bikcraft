@@ -4,10 +4,36 @@
  
 }
 
-.foto-passeio1 {
-  background: url(../img/produtos/bikcraft-passeio-1.jpg) no-repeat;
+
+
+.foto-esporte1 {
+  background: url(../img/produtos/bikcraft-esporte-1.jpg) no-repeat;
   width: 630px;
   height: 280px;
+}
+
+.produto_item h2 {
+  font-size: 2.25em;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: -170px;
+  margin-bottom: -100px; /* como o h2 esta com position relative, o local onde eles estava
+                            inicialmente, possui o seu "fantasma" contendo as mesmas 
+                            dimensoes. Para retirar isso, foi nescessario utilizar 
+                            margin-bottom negativo.*/
+}
+
+.produto_item h2:after, .produto_item h2:before {
+  background: #fff; 
+  content: "";
+  display: block;
+  margin: 10px auto;
+  height: 3px;
+  width: 60px;
 }
 
 .produto_item {
@@ -32,20 +58,38 @@
   height: 260px;
 }
 
-.descricao {
+.produto_descricao {
   background: #000;
   margin-top: 20px;
-  width: 460px;
-  height: 260px;
-}
-
-.descricao p {
-  color: #fff;
-  font-size: 18px;
-  padding: 13px;
   
 }
 
-.descricao ul {
+.produto_descricao p {
+  color: #fff;
+  font-size: 18px;
+  padding: 30px 40px;
+  line-height: 25px;
+  height: 160px;
+  
+}
+
+.produto_descricao ul li {
   background: #FEC63E;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  float: left;
+  width: 229px;
+  height: 49px;
+  padding-top: 17px;
+}
+
+/* Em baixo cria-se as "bordas" da lista da descriçao dos produtos */
+.produto_descricao ul li:nth-child(1),.produto_descricao ul li:nth-child(2){
+  margin-bottom: 2px;
+  
+}
+.produto_descricao ul li:nth-child(even) {
+  margin-left: 2px;
 }
