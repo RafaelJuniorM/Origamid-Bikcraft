@@ -7,8 +7,45 @@
 .foto-passeio1 {
   background: url(../img/produtos/bikcraft-passeio-1.jpg) no-repeat;
   width: 630px;
-  height: 276.5px;
-  margin-top: 60px;
-
+  height: 280px;
 }
 
+.produto_item {
+  padding-top: 60px;
+}
+
+.produto-icone {
+  background: #000;
+  padding: 70px 0;
+}
+
+.produto-icone img {
+  margin: 0 auto;
+}
+
+.foto_passeio {
+  margin-top: 20px;
+  
+}
+.foto_passeio img {
+  width: 460px;
+  height: 260px;
+}
+
+.descricao {
+  background: #000;
+  margin-top: 20px;
+  width: 460px;
+  height: 260px;
+}
+
+.descricao p {
+  color: #fff;
+  font-size: 18px;
+  padding: 13px;
+  
+}
+
+.descricao ul {
+  background: #FEC63E;
+}
