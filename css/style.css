@@ -167,7 +167,7 @@ img {
   color: #ffffff;
   font-weight: bold;
   font-size: 2.25em;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-transform: uppercase;
 }
 
@@ -395,4 +395,5 @@ img {
 .copyrigth {
   width: 100vw;
   background: #FEC63E;
+  color: #000;
 }
