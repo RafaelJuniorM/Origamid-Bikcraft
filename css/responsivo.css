@@ -1,11 +1,53 @@
 /* estilo tablets*/
 @media only screen and (min-width:788px) and (max-width: 979px) {
+  /*====== pagina principal ========*/
+  /* Qualidade */
+  .qualidade::after {
+    right: 65px;
+  }
 
-	
+  
+  .qualidade-lista li {
+    padding: 0 5px;
+  }
+
+  /* footer */
+
+  .footer_redes ul li {
+    margin-left: 5px;
+  }
+
+  /* ====== pagina produtos ===== */
+  .produto_item h2 {
+    top: -150px;
+    margin-bottom: -100px;
+  }
+
+  .produto-icone {
+    padding: 41px 0;
+  }
+
+  .produto_descricao p {
+    font-size: 14px;
+    padding: 35px 35px;
+    line-height: 20px;
+    height: 152px;
+  }
+
+  .produto_descricao ul li {
+    width: 181px;
+    height: 53px;
+  }
+
 }
 
 /* Estilo smartphone */
 @media only screen and (max-width: 787px)  {
+  /* CALL*/
+  .call-to-action {
+    padding-top: 10px ;
+  } 
+  
   /* header*/
   .header{
     position: relative;
@@ -37,10 +79,75 @@
   }
 
   /*Introduçao */
+
+  .introduction h1 {
+    font-size: 2.25em;
+  }
+
   .introduction {
     margin-top: 0;
-    padding-top: 10px;
+    padding-top: 40px;
     background: url(../img/bg-mobile.jpg) no-repeat center;
     background-size: cover;
+  }
+
+  /* QUalidade */
+  .qualidade::after {
+    display: none;
+  }
+
+  /* pagina SOBRE */ 
+  .menu-header ul li a.menu_ativo {
+    border-color: #fff;
+  }
+
+  .introducao_sobre {
+    margin-top: 0;
+  }
+
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 0;  
+  }
+
+  .missao_sobre ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+
+  /* ====== pagina produtos ===== */
+  .produto_item h2 {
+    top: -100px;
+    margin-bottom: -64px;
+  }
+
+  .produto-icone {
+    padding: 41px 0;
+  }
+
+  .produto_descricao p {
+    font-size: 14px;
+    padding: 35px 35px;
+    line-height: 20px;
+    height: auto;
+  }
+  
+  .produto_descricao ul li {
+    width: 149px;
+    height: 53px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+  
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento_dados ul {
+    padding-right: 0px;
   }
 }
