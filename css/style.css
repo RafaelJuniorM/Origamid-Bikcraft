@@ -65,6 +65,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 /* ===== ESTILOS DO HEADER ========*/
 
@@ -212,12 +213,12 @@ img {
 
 .produto_bike .icone_produtos img {
   padding: 20px;
+  margin: 0 auto;
 }
 
 .produto_bike .description_model {
   background-color: #FEC63E;
   text-align: center;
-
 }
 
 .produto_bike .description_model .title_description {

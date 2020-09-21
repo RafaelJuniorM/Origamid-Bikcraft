@@ -42,6 +42,7 @@
 
 .contato_dados {
   color: #fff;
+ padding-left: 100px;
 }
 
 .contato_dados h3 {
@@ -60,6 +61,11 @@
   line-height: 30px;
 }
 
+.contato_dados span:nth-of-type(even){
+  margin-bottom: 30px;
+  
+}
+
 .contato_dados ul li {
   display: inline-block; /* Os li sao block ficando um abaixo do outro*/
   margin-left: 10px;
@@ -73,4 +79,8 @@
 
 .contato_dados ul li a:hover {
   border-color: #000;
+}
+
+.contato_mapa{
+  margin-bottom: 60px;
 }

@@ -1,0 +1,46 @@
+/* estilo tablets*/
+@media only screen and (min-width:788px) and (max-width: 979px) {
+
+	
+}
+
+/* Estilo smartphone */
+@media only screen and (max-width: 787px)  {
+  /* header*/
+  .header{
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto;
+  }
+
+  .menu-header{
+    margin: 0 auto;
+    text-align: center;
+  } 
+
+  .menu-header ul li {
+    margin: 5px;
+  }
+
+  .menu-header ul li a {
+    border: 4px solid #000;
+    width: 135px;
+    display: block;
+    float: left;
+  }
+
+  .menu-header ul li a:hover {
+    border-color: #fff;
+  }
+
+  /*Introduçao */
+  .introduction {
+    margin-top: 0;
+    padding-top: 10px;
+    background: url(../img/bg-mobile.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
