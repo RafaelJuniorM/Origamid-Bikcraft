@@ -75,7 +75,7 @@ img {
   position: fixed;
   top: 0;
   background-color: #FEC63E;
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu-header {
@@ -122,7 +122,7 @@ img {
   color: #ffffff;
   font-weight: bold;
   font-size: 3em;
-  margin-bottom: 30px;
+  margin: 25px 0px;
   text-transform: uppercase;
 }
 
@@ -398,3 +398,60 @@ img {
   background: #FEC63E;
   color: #000;
 }
+
+
+/* ======= JAVASCRIPT ======*/
+
+.js [data-slide] {  /* SELECIONANDO TODO O ATRIBUTO DATA-SLIDE*/
+  position: relative;
+}
+.js [data-slide] > * { /* SELECIONA GERAL, QUE TENHA O ATRIBUTO DATA-SLIDE*/
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  margin-top: 10px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px; /* tira os numeros dentro das bolinhas*/
+  overflow: hidden;
+  background: #1d1d1d;
+  cursor: pointer;
+}
+
+.js [data-slide-nav] button.active {
+  background: #FEC63E;
+}
+
+/* animaçoes */
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+

@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+
+  <script> document.documentElement.classList.add("js"); </script>
 </head>
 <body>
   <header class="header">
@@ -38,7 +40,7 @@
   </sectio>
 
   <main>
-    <section class="container">
+    <section class="container" data-slide ="quote">
       <blockquote class="quote-interno">
         <p>
           “No mundo atual, a continua expansão da nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte”
@@ -46,11 +48,25 @@
         <cite class="quote-interno-cite">Barbara Moss</cite>
       </blockquote>
 
+      <blockquote class="quote-interno">
+        <p>
+          "Porque a vida é como andar de bicicleta: quando você perde o medo, aprende, está indo muito bem e feliz... Aí Deus diz: Ok, agora sem rodinhas!"
+        </p>
+        <cite class="quote-interno-cite">Caio Fernando</cite>
+      </blockquote>
+
+      <blockquote class="quote-interno">
+        <p>
+          “A vida é como andar de bicicleta. O equilíbrio se conquista aos poucos. As quedas machucam e só se levanta e permanece tentando quem realmente tem um foco.”
+        </p>
+        <cite class="quote-interno-cite">Kessia Campos</cite>
+      </blockquote>
+
     </section>
       
     <!-- ====== INICIA PORTFOLIO ========== -->
     <section class="portfolio">
-      <div class=" container">  
+      <div class=" container" data-slide="portfolio">  
         <div >
           <ul class="portfolio_lista">
             <li class="grid-8"> 
@@ -59,6 +75,23 @@
             
             <li class="grid-8">
               <img src="img/portfolio/passeio.jpg" alt="bike passeio">
+            </li>
+            
+            <li class="grid-16">
+              <img src="img/portfolio/esporte.jpg" alt="bike retro">
+            </li>
+          </ul>
+
+        </div>
+
+        <div >
+          <ul class="portfolio_lista">
+            <li class="grid-8"> 
+              <img src="img/portfolio/passeio.jpg" alt="bike esporte">
+            </li>
+            
+            <li class="grid-8">
+              <img src="img/portfolio/retro.jpg" alt="bike passeio">
             </li>
             
             <li class="grid-16">
@@ -131,5 +164,9 @@
 
     </footer>
   </main>
+  <script src="./js/simple-anime.js"></script>  
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
+  
 </body>
 </html>
