@@ -111,7 +111,7 @@ img {
 .introduction {
   background: url(../img/bg.jpg) no-repeat center;
   background-size: cover; /* para a imagem comprir inteira */
-  margin-top: 92px; /* como o menu esta fixed é nescessario da um espaçamento */
+ 
   height: 380px;
   padding-top: 80px;
   text-align: center;
@@ -158,7 +158,7 @@ img {
 .introduction_interna {
   height: 160px;
   width: 100vw;
-  margin-top: 92px;
+  margin-top: 92px; /* como o menu esta fixed é nescessario da um espaçamento */
   text-align: center;
   color: #fff;
   padding-top: 30px;
@@ -347,7 +347,7 @@ img {
   width: 100vw;
   color: #fff;
   padding: 20px 0;
-
+  text-align: start;
 }
 .footer h3 {
   color: #FEC63E;

@@ -39,6 +39,9 @@
     height: 53px;
   }
 
+  /* ===== pagina portfolio ===== */
+
+
 }
 
 /* Estilo smartphone */
@@ -63,6 +66,9 @@
     text-align: center;
   } 
 
+  .menu-header ul {
+    margin-bottom: 8px;
+  }
   .menu-header ul li {
     margin: 5px;
   }
@@ -78,8 +84,7 @@
     border-color: #fff;
   }
 
-  /*Introduçao */
-
+  /*Introduçao de todas as paginas */
   .introduction h1 {
     font-size: 2.25em;
   }
@@ -91,12 +96,18 @@
     background-size: cover;
   }
 
-  /* QUalidade */
+  .introduction_interna {
+    margin-top: 0;
+    text-align: center;
+  }
+
+
+  /* QUalidade da pagina principal  */
   .qualidade::after {
     display: none;
   }
 
-  /* pagina SOBRE */ 
+  /*===== pagina SOBRE ======= */ 
   .menu-header ul li a.menu_ativo {
     border-color: #fff;
   }
@@ -149,5 +160,11 @@
 
   .orcamento_dados ul {
     padding-right: 0px;
+  }
+
+  /* ========= pagina contatos ======*/
+
+  .contato_dados {
+    padding-left: 0;
   }
 }
