@@ -19,3 +19,12 @@ if(window.SimpleSlide){
 if(window.SimpleAnime) {
   new SimpleAnime();
 }
+
+if(window.SimpleSlide){
+  new SimpleForm ({
+    form: ".formphp",
+    button: "#enviar",
+    erro:"<div id='form-erro'> <h2> Erro no envio!!!</h2><p> um erro ocorreu, tente para o email rafaelj.contato@gmail.com.Em breve entrarei em contato</p>",
+    sucesso: "<div id='form-erro'><h2>Formularioenviado com sucesso </h2> <p>Em breve entrarei em contato</p>"
+  });
+}

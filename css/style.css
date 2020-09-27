@@ -455,3 +455,23 @@ img {
   transition: transform .8s, opacity .8s;
 }
 
+
+/* php formulario contra o spam de robos 
+    criaçao de dois campos, que ficaram escondidos
+
+*/
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
+
+/* mensagem de sucesso ou erro, no envio do formulario*/
+
+#form-sucesso {
+  color: #31aa39;
+}
+
+#form-erro {
+  color: #f64540;
+} 
