@@ -1,0 +1,477 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.875em;
+  line-height: 25px;
+}
+
+.btn {
+  border:  3px solid #FEC63E;
+  color: #FEC63E;
+  text-decoration: none;
+  font-size: 0.875em;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.btn-preto:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle:after{
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 8px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.call-to-action {
+  padding-top: 40px ;
+  height: 100px;
+  text-align: center;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* ===== ESTILOS DO HEADER ========*/
+
+.header {
+  width: 100vw;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  background-color: #FEC63E;
+  z-index: 2;
+}
+
+.menu-header {
+  text-align: right;
+}
+.menu-header ul li {
+  display: inline-block; /* O li ficam lado a lado */
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+
+.menu-header ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 10px 0; /* aumenta a area de contato do menu*/
+}
+
+.menu-header ul li a:hover {
+  color: #ffffff;
+}
+
+.menu-header ul li a.menu_ativo {
+  color: #fff;
+}
+/*====== INTRODUÇÃO ========*/
+.introduction {
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover; /* para a imagem comprir inteira */
+ 
+  height: 380px;
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.introduction h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3em;
+  margin: 25px 0px;
+  text-transform: uppercase;
+}
+
+
+.quote-externo {
+  color: #ffffff;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after{ /* Estilização da pagina*/
+  background: #fff; 
+  content: "";
+  display: block;
+  margin: 10px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.quote-externo-cite {
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+/*====== introduçao interna  PAGINA SOBRE  ======= */
+.introduction_interna {
+  height: 160px;
+  width: 100vw;
+  margin-top: 92px; /* como o menu esta fixed é nescessario da um espaçamento */
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.introduction_interna h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.25em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.introduction_interna h1:after {
+  background: #fff; 
+  content: "";
+  display: block;
+  margin: 10px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.subtitulo-interno {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after{
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 8px 0;
+  height: 3px;
+  width: 60px;
+}
+
+/*======= Produtos ============ */
+
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produto_bike .icone_produtos {
+  background-color: #000;
+  text-align: center;
+}
+
+.produto_bike .icone_produtos img {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.produto_bike .description_model {
+  background-color: #FEC63E;
+  text-align: center;
+}
+
+.produto_bike .description_model .title_description {
+ 
+  font-size: 1.12em;
+  line-height: 25px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 14px;
+}
+
+.produto_bike .description_model .title_description:after {
+  
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 2px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.produto_bike .description_model .p_description {
+  
+  padding: 10px 20px 20px 20px ;
+}
+
+
+/* ======== PORTFOLIO ========= */
+.portfolio {
+  width: 100vw;
+  background-color: #000000;
+}
+
+.portfolio .subtitle { /* Quando o fundo for preto */
+  color: #FEC63E;
+  margin-top: 20px;
+}
+
+.portfolio .subtitle:after{
+  background: #FEC63E; 
+  content: "";
+  display: block;
+  margin: 8px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.call-to-action .call-to-action-black {
+  color: #fff;
+}
+
+.portfolio  .call-to-action {
+  padding-top: 20px;
+}
+
+/* =========== QUALIDADE ============= */
+
+.qualidade  {
+  padding: 60px 0;
+}
+
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url(../img/linhas.svg) no-repeat center;
+  position: absolute; /* para que possa move-lo  somente dentro da div PAI ( que é relative)*/
+  top: 209px;
+  right: 162px;
+  z-index: -1; /* deixa o elemento mais atras possivel */ 
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade-lista {
+  padding-top: 20px;
+  overflow: hidden;
+}
+.qualidade-lista li h3 {
+  font-weight: bold;
+  font-size: 1.12em;
+  line-height: 25px;
+  letter-spacing: .1em;
+  padding-top: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.qualidade-lista li h3::after {
+  background: #000; 
+  content: "";
+  display: block;
+  margin: 8px auto;
+  height: 3px;
+  width: 60px;
+}
+
+.qualidade-lista li {
+  padding: 0 40px;
+  text-align: center;
+}
+
+/* ===== FOOTER ===== */
+
+.quebra .first-footer {
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  height: 220px;
+  text-align: center;
+  width: 100vw;
+}
+.quebra .quote-externo p {
+  padding-top: 45px;
+}
+
+.footer {
+  background: #000;
+  width: 100vw;
+  color: #fff;
+  padding: 20px 0;
+  text-align: start;
+}
+.footer h3 {
+  color: #FEC63E;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 25px;
+  
+}
+
+.footer h3:after {
+  background: #FEC63E; 
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+  padding-right: 40px;
+}
+
+.footer_contato ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.875em;
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer_redes ul li {
+  display: inline-block; /* Os li sao block ficando um abaixo do outro*/
+  margin-left: 10px;
+}
+
+.footer_redes ul li a {
+  border:  3px solid #FEC63E;
+  display: block;
+  padding: 5px;
+}
+
+.footer_redes ul li a:hover {
+  color: #fff;
+}
+
+.copyrigth {
+  width: 100vw;
+  background: #FEC63E;
+  color: #000;
+}
+
+
+/* ======= JAVASCRIPT ======*/
+
+.js [data-slide] {  /* SELECIONANDO TODO O ATRIBUTO DATA-SLIDE*/
+  position: relative;
+}
+.js [data-slide] > * { /* SELECIONA GERAL, QUE TENHA O ATRIBUTO DATA-SLIDE*/
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  margin-top: 10px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px; /* tira os numeros dentro das bolinhas*/
+  overflow: hidden;
+  background: #1d1d1d;
+  cursor: pointer;
+}
+
+.js [data-slide-nav] button.active {
+  background: #FEC63E;
+}
+
+/* animaçoes */
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+
+/* php formulario contra o spam de robos 
+    criaçao de dois campos, que ficaram escondidos
+
+*/
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
+
+/* mensagem de sucesso ou erro, no envio do formulario*/
+
+#form-sucesso {
+  color: #31aa39;
+}
+
+#form-erro {
+  color: #f64540;
+} 
